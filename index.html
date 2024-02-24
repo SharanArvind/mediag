@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIAG AI</title>
+    <link rel="stylesheet" href="static/style.css">
+    
+
+</head>
+<body>
+    <div class="container">
+        <body style="background-color:rgba(140, 197, 152, 0.404);">
+        <h1><center>MEDIAG AI</center></h1>
+        <p> Welcome to MEDIAG AI, your medical information assistant powered by OpenAI's GPT-3.5. This app provides information about various medical conditions based on user input.</p>
+        <p>Simply enter a medical diagnosis, and MEDIAG AI will provide detailed information about it, including symptoms, causes, prevention, and possible medications.</p>
+        
+        <!-- Form to enter symptoms -->
+        <form action="/result" method="post">
+            <label for="symptoms">Enter the Symptoms:</label>
+            <input type="text" id="symptoms" name="symptoms" required><br><br>
+            <input type="submit" value="Diagnose">
+        </form>
+    </div>
+</body>
+</html>

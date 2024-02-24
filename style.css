@@ -1,0 +1,48 @@
+body {
+    font-family: 'Sora', sans-serif;
+    background-image: url('bg.jpg'); /* Add your background image */
+    background-size: cover;
+    background-position: center;
+    animation: fadeIn ease 2s; /* Add a fade-in animation */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    animation: slideInDown ease 2s; /* Add a slide-in animation */
+}
+
+h1, h2, p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+label, input {
+    display: block;
+    margin: 10px auto;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color:#000000;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #000000;
+}
